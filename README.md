@@ -1,10 +1,5 @@
 # YAMon-v3
-Modified working version 
-
-# License
-
-# YAMon-v3
-Official repository for YAMon v3
+repository for a modified working version of YAMo-v3
 
 This repository is posted for legacy purposes. I have not plans to further develop this version of this code
 

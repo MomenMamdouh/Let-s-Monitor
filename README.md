@@ -1,10 +1,5 @@
 # YAMon-v3
-repository for a modified working version of YAMo-v3
-
-This repository is posted for legacy purposes. I have not plans to further develop this version of this code
-
-Please see [YAMon-v4](https://github.com/al-caughey/YAMon-v4/) instead.
-
+Repository for a modified working version of YAMo-v3
 
 # License
 

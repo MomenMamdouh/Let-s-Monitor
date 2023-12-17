@@ -1,5 +1,5 @@
 # YAMon-v3
-Repository for a modified working version of YAMo-v3
+Repository for a modified working version of YAMon-v3
 
 # License
 

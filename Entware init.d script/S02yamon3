@@ -1,0 +1,31 @@
+#!/bin/sh
+
+ENABLED=yes
+DESC=YAMon3
+
+start() {
+    sh /opt/YAMon3/startup.sh 10
+}
+
+stop() {
+    sh /opt/YAMon3/shutdown.sh
+}
+
+case "$1" in
+    start)
+        start
+        ;;
+    stop)
+        stop
+        ;;
+    restart)
+        stop
+        start
+        ;;
+    *)
+        echo "Usage: $0 {start|stop|restart}"
+        ;;
+esac
+
+
+. /opt/etc/init.d/rc.func

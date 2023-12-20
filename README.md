@@ -1,6 +1,11 @@
 # YAMon-v3
 Repository for a modified working version of YAMon-v3
 
+Modifications over the original software:
+
+- The ability to install YAMon-v3 as a service; this option is available in the advanced mode only.
+- YAMon-v3 is working using local css & js files now. 
+
 # License
 
 Copyright (C) 2020 by Al Caughey (al@caughey.ca)

@@ -1,12 +1,12 @@
 #!/bin/bash
 echo 
 echo 
-echo This script will allow you to create a init.d startup script for YAMon3
-echo instead of using regular nvram commands.\nEntware must be installed.
+echo This script will allow you to create an init.d startup script for YAMon3 instead of using regular nvram commands.
+echo Entware must be installed.
 echo ========================================================================
 echo 
 
-echo By default, YAMon3 will delay for 10 seconds prior to starting.
+echo By default, YAMon3 will delay for 10 seconds before starting.
 echo Some older/slower routers may require extra time
 echo 
 read -p 'Enter the start-up delay:' delay

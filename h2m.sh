@@ -3,7 +3,8 @@
 ##########################################################################
 # Yet Another Monitor (YAMon)
 # Copyright (c) 2013-2020 Al Caughey
-# Copyright (c) 2023-present Mo'men Mamdouh# All rights reserved.
+# Copyright (c) 2023-present Mo'men Mamdouh
+# All rights reserved.
 #
 #  re-aggregate monthly data from the hourly file
 #

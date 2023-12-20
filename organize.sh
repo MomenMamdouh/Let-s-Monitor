@@ -3,7 +3,8 @@
 ##########################################################################
 # Yet Another Monitor (YAMon)
 # Copyright (c) 2013-2020 Al Caughey
-# Copyright (c) 2023-present Mo'men Mamdouh# All rights reserved.
+# Copyright (c) 2023-present Mo'men Mamdouh
+# All rights reserved.
 #
 #  This program organizes files in your data directory as per settings in 
 #  config.file

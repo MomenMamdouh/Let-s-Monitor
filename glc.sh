@@ -2,7 +2,8 @@
 
 ##########################################################################
 # Yet Another Monitor (YAMon)
-# Copyright (c) 2013-present Al Caughey
+# Copyright (c) 2013-2020 Al Caughey
+# Copyright (c) 2023-present Mo'men Mamdouh
 # All rights reserved.
 #
 #  get a local copy of the JS & CSS files hosted at usage-monitoring.com

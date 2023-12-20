@@ -2,8 +2,8 @@
 
 ##########################################################################
 # Yet Another Monitor (YAMon)
-# Copyright (c) 2013-present Al Caughey
-# All rights reserved.
+# Copyright (c) 2013-2020 Al Caughey
+# Copyright (c) 2023-present Mo'men Mamdouh# All rights reserved.
 ###########################################################################
 
 # this script purges all log and backup files older than 30 days (by default)

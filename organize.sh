@@ -9,9 +9,6 @@
 #  This program organizes files in your data directory as per settings in 
 #  config.file
 #
-#  Updated: 
-#  - May 23, 2015 - recreated this file
-#
 ##########################################################################
 	
 d_baseDir=$(cd "$(dirname "$0")" && pwd)

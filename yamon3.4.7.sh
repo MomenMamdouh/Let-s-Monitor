@@ -739,10 +739,6 @@ setConfigJS()
 	fi
 	configjs=${configjs//\/\//\/}
 	local processors=$(cat /proc/cpuinfo | grep -iE "^processor\s:\s[0-9]{1,}$" -c)
-	cp -p -f ${d_baseDir}/$_webDir/$_wwwJS/jquery.min.js $_wwwPath/$_wwwJS/jquery.min.js
-	cp -p -f ${d_baseDir}/$_webDir/$_wwwJS/jquery-ui.min.js $_wwwPath/$_wwwJS/jquery-ui.min.js
-	cp -p -f ${d_baseDir}/$_webDir/$_wwwJS/loader.js $_wwwPath/$_wwwJS/loader.js
-
 	#Check for directories
 	if [ ! -f "$configjs" ] ; then
 		$send2log ">>> $_configWWW not found... creating new file: $configjs" 2

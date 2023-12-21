@@ -23,7 +23,9 @@ _s_title=" ___     ___   __       ___    ___
    ////  ////      \\\\\\\\||||    ||||  \\\\\\|///  |||   |||
    
               Yet Another Monitor (v: $_version)
-            Copyright (c) 2013-present Al Caughey
+            Copyright (c) 2013-2020 Al Caughey
+            Copyright (c) 2023 Mo'men Mamdouh
+            
                   All rights reserved.
                http://usage-monitoring.com"
 

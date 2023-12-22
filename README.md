@@ -1,10 +1,11 @@
-# YAMon-v3
+# Let's Monitor
 Repository for a modified working version of YAMon-v3
 
 Modifications over the original software:
 
 - The ability to install YAMon-v3 as a service on all Entware-supported routers, this option is available in the advanced mode only.
-- YAMon-v3 is working using local css & js files now. 
+- YAMon-v3 is working using local css & js files now.
+- Minor fixes.
 
 # License
 

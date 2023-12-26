@@ -798,7 +798,7 @@ case "\$1" in
         start
         ;;
     *)
-        echo "Usage: $ya {start|stop|restart}"
+        echo "Usage: /opt/etc/init.d/S99yamon3 {start|stop|restart}"
         ;;
 esac
 

@@ -779,11 +779,11 @@ ENABLED=yes
 DESC=YAMon3
 
 start() {
-    sh /opt/YAMon3/startup.sh $startup_delay
+    sh $su $startup_delay
 }
 
 stop() {
-    sh /opt/YAMon3/shutdown.sh
+    sh sd
 }
 
 case "\$1" in
@@ -798,7 +798,7 @@ case "\$1" in
         start
         ;;
     *)
-        echo "Usage: $0 {start|stop|restart}"
+        echo "Usage: $ya {start|stop|restart}"
         ;;
 esac
 

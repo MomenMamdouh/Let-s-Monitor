@@ -26,7 +26,7 @@
 _firmware='0'                                # which firmware is running on the router: permitted values: 0->DD-WRT(*) || 1->OpenWrt || 2->Asuswrt-Merlin || 3->Asuswrt-Merlin || 4->LEDE || 5->Xwrt-Vortex || 6->Turris || 7->Padavan
 _updatefreq='30'                             # number of seconds between updates (* default `15` sec)
 _publishInterval='4'                         # number of intervals between updates for to the website (* default `12`)
-_ispBillingDay='5'                           # roll-over day of the month for ISP billing (* default `1`)
+_ispBillingDay='1'                           # roll-over day of the month for ISP billing (* default `1`)
 _webDir='www/'                               # path to the web files (* default `www/`)
 _webIndex='index.html'                       # path to the index page (* default `index.html`)
 _dataDir='data/'                             # path to the data directory (* default `data/`)
@@ -75,7 +75,7 @@ _do_separator=''                             # a default character that separate
 _includeBridge=0                             # whether or not there is a bridge in your wireless configuration - values: 0-->No(*) || 1->Yes
 _bridgeMAC='XX:XX:XX:XX:XX:XX'               # mac address for the bridge device, or comma separated list if multiple bridges
                                              #   NB - only required if _includeBridge == 1
-_defaultOwner='Unknown'                      # default owner name for new devices
+_defaultOwner='Home'                         # default owner name for new devices
 _defaultDeviceName='New Device'              # default name for new devices if nothing can be found by the script
 _includeIPv6='0'                             # whether or not your router is configured for IPv6: 0->no(*) || 1->yes
 _doLocalFiles='0'                            # make a local copy of JS, CSS and images: 0->no(*recommended) || 1->yes

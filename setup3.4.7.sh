@@ -850,9 +850,6 @@ To launch YAMon manually, enter \`${d_baseDir}/startup.sh\`.
 If you have questions, please send them to questions@usage-monitoring.com
 (Include log files and/or screenshots if you have installation difficulties)
 
-Thank you for installing YAMon.  You can show your appreciation and
-support future development by donating at https://www.paypal.me/YAMon/.
-
 Thx!	
   
     Al

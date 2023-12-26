@@ -783,7 +783,7 @@ start() {
 }
 
 stop() {
-    sh sd
+    sh $sd
 }
 
 case "\$1" in

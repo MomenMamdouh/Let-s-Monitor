@@ -605,6 +605,7 @@ echo "$configStr" > "$_configFile"
 
 su="${d_baseDir}/startup.sh"
 sd="${d_baseDir}/shutdown.sh"
+rs="${d_baseDir}/restart.sh"
 ya="${d_baseDir}/yamon${_version}.sh"
 h2m="${d_baseDir}/h2m.sh"
 glc="${d_baseDir}/glc.sh"
@@ -786,6 +787,9 @@ stop() {
     sh $sd
 }
 
+restart() {
+    sh $rs
+}
 case "\$1" in
     start)
         start
@@ -794,8 +798,7 @@ case "\$1" in
         stop
         ;;
     restart)
-        stop
-        start
+        restart
         ;;
     *)
         echo "Usage: /opt/etc/init.d/S99yamon3 {start|stop|restart}"

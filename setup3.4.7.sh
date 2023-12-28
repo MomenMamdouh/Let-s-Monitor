@@ -615,6 +615,7 @@ t_perm_msg="e.g., $t_perm (*)-> rwxrwxr-x"
 if [ "$t_installmode" == 'b' ] ; then
 	chmod $t_perm -R "$d_baseDir"
 	chmod $t_perm "$su"
+  	chmod $t_perm "$rs"
 	chmod $t_perm "$sd"
 	chmod $t_perm "$ya"
 	chmod $t_perm "$h2m"
@@ -632,6 +633,7 @@ else
 	fi
 	chmod $t_perm -R "$d_baseDir"
 	chmod $t_perm "$su"
+ 	chmod $t_perm "$rs"
 	chmod $t_perm "$sd"
 	chmod $t_perm "$ya"
 	chmod $t_perm "$h2m"

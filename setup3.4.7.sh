@@ -807,8 +807,6 @@ case "\$1" in
         ;;
 esac
 
-
-. /opt/etc/init.d/rc.func
 EOF
 		chmod +x "$etc_init"
 		fi

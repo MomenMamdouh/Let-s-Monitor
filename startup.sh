@@ -46,5 +46,5 @@ done
 if [ -z "$(which nice)" ] ; then
 	${d_baseDir}/yamon${_version}.sh &
 else
-	nice ${d_baseDir}/yamon${_version}.sh &
+	nice -n -19 ${d_baseDir}/yamon${_version}.sh &
 fi
